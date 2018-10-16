@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_FAKTURA" directorySegmentName="seg_0" id="854AB7AB-ED3A-5965-BA00-C3CD9335C16A">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 13:16:57 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<incrementBy>1</incrementBy>
+<minValue>1</minValue>
+<startWith>1</startWith>
+</SequenceOraclev10g>

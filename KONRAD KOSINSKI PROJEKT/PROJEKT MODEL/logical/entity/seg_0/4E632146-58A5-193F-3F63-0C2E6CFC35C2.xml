@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E632146-58A5-193F-3F63-0C2E6CFC35C2" name="KRAJ PRODUKCJI">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>862BC78A-449D-1061-88AD-545BD02696A8</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID KRAJU" id="88E827E1-07E7-1685-F017-4CD009B691E6">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>A402F49E-9BA0-BAAF-30A2-1C90DB1E3FA6</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA KRAJU" id="D72A843A-6D87-6B4B-AC8C-41615AF03013">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>F2328B7F-1A8E-C5FE-CB32-478FA903EFDE</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16AE0F0A-8735-7CAF-8F8A-5F3633F5A8EF" name="KRAJ PRODUKCJI PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>3E175209-4069-AEDA-3CA9-2843BF3109DA</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88E827E1-07E7-1685-F017-4CD009B691E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

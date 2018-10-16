@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E47A71EB-1A94-52C8-5BF0-71DCE67FFD9E" name="POZYCJA FAKTURY">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>17C48F0F-8A7F-8F2B-A8D4-A15190D9B8C2</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID POZYCJI" id="F6CFE8A0-8DB1-8C24-28A3-5CF7B0B35395">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>B1B7A2AA-6887-9483-C4F2-843ED3C3163D</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>SEQ_POZYCJA_FAKTURA</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TOWARU" id="6098FAE2-9B10-9956-F6B0-E6642468A76A">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>02AC846B-A409-D4BF-2DBD-B92107A18617</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<referedAttribute>2C3DC1B1-CE08-8206-5D54-49EF05404DA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID FAKTURY" id="F6DAADF7-A09D-DD76-0343-9B59EBDB7EA1">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>4FB0C0D7-41E0-873D-F8F8-DA62AE5B53E7</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<referedAttribute>5FB60EA5-8603-1E13-D3C7-DFF2331C05C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENA" id="0095C3D7-C934-5F77-87B4-F93EA22F7A2F">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>2E61ABC0-DFE1-06E9-A293-B63EC6604E49</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ILOSC TOWAROW" id="2BC5AD5D-97D2-9B37-913E-A6727A1C5044">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>563A9474-9893-C1E9-8F07-4A3E89C0508B</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AE23073-97C1-9092-7582-DA71978CB005" name="POZYCJA FAKTURY PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>CA76FA6A-8A8D-0EB1-8333-6F2236079055</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6CFE8A0-8DB1-8C24-28A3-5CF7B0B35395</attributeRef>
+<attributeRef>F6DAADF7-A09D-DD76-0343-9B59EBDB7EA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

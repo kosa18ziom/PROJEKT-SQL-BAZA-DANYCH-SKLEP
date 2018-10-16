@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAKTURA_Pracownik_FK" directorySegmentName="seg_0" id="B29BEAD0-FC76-DA66-1BA6-90216CE14479">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>351D8394-8786-7FCC-9CC9-B09B93C26F4A</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<sourcePk>A9691841-FDFF-904E-DE31-0289D3FCEB02</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81E22A85-6522-239E-8E77-6B6A498B7969</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AB5B6EC5-0449-9A6D-20F4-0E078282B02E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

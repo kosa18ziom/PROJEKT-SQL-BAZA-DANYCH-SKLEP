@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="KLIENT" directorySegmentName="seg_0" id="4DE8AD42-AA48-6099-206D-464E58DC6DC3">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_KLIENTA" id="2A1146C8-C9A3-A1FC-97F1-32C6285D0C52">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<defaultValue>SEQ_KLIENT</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NAZWISKO" id="7FF5269F-AAF3-40CF-4CB8-D4EDB1EDE197">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMIE" id="81B0A969-797B-85F7-5D13-4C53F24123B0">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULICA" id="E61BDCB3-287E-7385-5641-FA0248DF5447">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIEJSCOWOŚĆ" id="F86A39EC-206B-9579-2E63-32692AB11903">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KLIENT_PK" id="ED9C805E-B4BC-862A-1E67-DEDC414C4F51">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

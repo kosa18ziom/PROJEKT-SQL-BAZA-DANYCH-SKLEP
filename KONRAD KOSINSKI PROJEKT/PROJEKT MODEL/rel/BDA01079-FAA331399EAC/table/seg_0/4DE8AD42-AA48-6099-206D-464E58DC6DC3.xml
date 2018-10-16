@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DE8AD42-AA48-6099-206D-464E58DC6DC3" name="KLIENT">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:55:33 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KLIENTA" id="2A1146C8-C9A3-A1FC-97F1-32C6285D0C52">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:55:46 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>SEQ_KLIENT</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="81B0A969-797B-85F7-5D13-4C53F24123B0">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:55:55 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="7FF5269F-AAF3-40CF-4CB8-D4EDB1EDE197">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:56:05 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA" id="E61BDCB3-287E-7385-5641-FA0248DF5447">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:56:16 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIEJSCOWOŚĆ" id="F86A39EC-206B-9579-2E63-32692AB11903">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:56:32 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED9C805E-B4BC-862A-1E67-DEDC414C4F51" name="KLIENT_PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:55:46 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A1146C8-C9A3-A1FC-97F1-32C6285D0C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

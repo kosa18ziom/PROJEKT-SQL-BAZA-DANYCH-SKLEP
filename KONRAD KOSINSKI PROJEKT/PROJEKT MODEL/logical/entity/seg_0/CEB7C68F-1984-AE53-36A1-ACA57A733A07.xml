@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEB7C68F-1984-AE53-36A1-ACA57A733A07" name="TOWAR">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>332CA95E-6E71-85F0-4D87-BF7BEFBC87DB</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TOWARU" id="2C3DC1B1-CE08-8206-5D54-49EF05404DA5">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>6D1ED9E6-1F59-4D90-1A40-B3BFEF6DD2AF</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>SEQ_TOWAR</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENA" id="0DECEAB2-0E4D-FF2B-322B-ED2A04292DFC">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>35ECD219-5858-BBDE-A211-6CD3D4694511</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="22C24FB7-1A6D-52F5-6D52-A6D5E18F97C1">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>79EA656A-6885-59AD-A10B-6AB60DEBE496</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SKLEPU" id="7804B260-7523-0237-B69C-682143CFAF9C">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>69D74116-765C-B4AF-9F8D-A07E70FED1BE</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<referedAttribute>9C73F20D-978F-56ED-1EAB-BE05960ED284</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID KRAJU" id="070A9069-D374-67C3-D2F7-D20944CBFE95">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>BC048731-7BBA-F05F-ECEF-0944004B8AB6</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<referedAttribute>88E827E1-07E7-1685-F017-4CD009B691E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TYPU" id="41E6C36C-0006-C489-6851-D74FB98F94C0">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>6F924D2F-7F62-D4BF-620C-D6625E6DB215</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<referedAttribute>22978EBC-6BF2-0CFE-16C7-AE6C5BF468CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EBC4587-4DA7-DD1C-D5B6-7AFC84FB15B0" name="TOWAR PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>F71B55BE-F745-6682-0A14-B4D9630ECD35</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C3DC1B1-CE08-8206-5D54-49EF05404DA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

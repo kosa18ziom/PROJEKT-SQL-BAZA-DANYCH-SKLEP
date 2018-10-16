@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TOWAR_SKLEP_FK" directorySegmentName="seg_0" id="69D74116-765C-B4AF-9F8D-A07E70FED1BE">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>81973FAF-A839-ADC6-BC46-64044E8A15D4</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<sourcePk>33C6E7A7-EACD-5A8F-0CB6-F4C75C022930</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD34DF39-2BE9-8762-84BD-693DD3E2E42A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CEB7C68F-1984-AE53-36A1-ACA57A733A07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POZYCJA FAKTURY_TOWAR_FK" directorySegmentName="seg_0" id="02AC846B-A409-D4BF-2DBD-B92107A18617">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>AC6E2FDB-F243-475A-981D-A9D953B4A0D7</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<sourcePk>4EBC4587-4DA7-DD1C-D5B6-7AFC84FB15B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEB7C68F-1984-AE53-36A1-ACA57A733A07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E47A71EB-1A94-52C8-5BF0-71DCE67FFD9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

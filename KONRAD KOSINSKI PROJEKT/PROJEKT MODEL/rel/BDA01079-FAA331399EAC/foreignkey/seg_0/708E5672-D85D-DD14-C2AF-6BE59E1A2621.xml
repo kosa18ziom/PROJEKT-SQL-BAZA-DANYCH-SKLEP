@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="708E5672-D85D-DD14-C2AF-6BE59E1A2621" containerWithKeyObject="332CA95E-6E71-85F0-4D87-BF7BEFBC87DB" localFKIndex="97F944A7-CF3A-6067-3C0C-B3E75ED7F6A0" name="TOWAR_Typ Towaru_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:02:38 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>450A795C-25F6-A76B-8494-717DC482697A</referredTableID>
+<keyObject>1BF2D76E-7A2C-E20F-14D9-872261808B8A</keyObject>
+<referredKeyID>1BF2D76E-7A2C-E20F-14D9-872261808B8A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TOWAR_KRAJ PRODUKCJI_FK" directorySegmentName="seg_0" id="BC048731-7BBA-F05F-ECEF-0944004B8AB6">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-26 20:01:43 UTC</createdTime>
+<generatorID>D574AF97-1BDF-0B69-7A8C-3E927007E451</generatorID>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<engineerTo>
+<item key="BDA01079-11F5-0900-DF15-FAA331399EAC" value="true"/>
+</engineerTo>
+<sourcePk>16AE0F0A-8735-7CAF-8F8A-5F3633F5A8EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E632146-58A5-193F-3F63-0C2E6CFC35C2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CEB7C68F-1984-AE53-36A1-ACA57A733A07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

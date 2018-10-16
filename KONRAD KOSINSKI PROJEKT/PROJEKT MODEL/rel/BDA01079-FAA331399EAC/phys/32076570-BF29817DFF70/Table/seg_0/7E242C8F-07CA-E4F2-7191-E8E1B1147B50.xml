@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SKLEP" directorySegmentName="seg_0" id="7E242C8F-07CA-E4F2-7191-E8E1B1147B50">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Miejscowość" id="36B89175-4BAA-47D7-D481-0E56EFAA85C3">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SKLEPU" id="3A4D460B-3F2D-D825-39EB-D8E5E65135E1">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<defaultValue>SEQ_SKLEP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="Ulica" id="CCC1D732-9BC5-A836-4DE4-CD8162EAD5CC">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa" id="FCC6BFBF-F78B-334F-49D0-69ECFAC38474">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SKLEP_PK" id="7E28A8E6-3AF1-F4E6-60C4-C287C892E801">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

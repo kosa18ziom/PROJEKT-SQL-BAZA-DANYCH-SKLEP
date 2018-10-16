@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="862BC78A-449D-1061-88AD-545BD02696A8" name="KRAJ_PRODUKCJI">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:57:29 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KRAJU" id="A402F49E-9BA0-BAAF-30A2-1C90DB1E3FA6">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:57:47 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA_KRAJU" id="F2328B7F-1A8E-C5FE-CB32-478FA903EFDE">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:57:59 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E175209-4069-AEDA-3CA9-2843BF3109DA" name="KRAJ PRODUKCJI_PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:57:47 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A402F49E-9BA0-BAAF-30A2-1C90DB1E3FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

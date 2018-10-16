@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17C48F0F-8A7F-8F2B-A8D4-A15190D9B8C2" name="POZYCJA_FAKTURY">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:54:42 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POZYCJI" id="B1B7A2AA-6887-9483-C4F2-843ED3C3163D">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:54:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>SEQ_POZYCJA_FAKTURA</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TOWARU" id="C60704FC-C785-6620-5BBB-CCC628377E96">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:03:13 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6E2FDB-F243-475A-981D-A9D953B4A0D7" referredColumn="6D1ED9E6-1F59-4D90-1A40-B3BFEF6DD2AF"/>
+</associations>
+</Column>
+<Column name="ID_FAKTURY" id="165C3371-A462-BCF8-1F0D-59231FB232A2">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:03:37 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="448BE43D-65AF-E771-1DC3-6EFDD8753719" referredColumn="2E6AB1AD-6389-5959-2980-53B0225CE38A"/>
+</associations>
+</Column>
+<Column name="CENA" id="2E61ABC0-DFE1-06E9-A293-B63EC6604E49">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:11:34 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILOSC_TOWAROW" id="563A9474-9893-C1E9-8F07-4A3E89C0508B">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-09 17:40:55 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA76FA6A-8A8D-0EB1-8333-6F2236079055" name="POZYCJA FAKTURY_PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:54:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1B7A2AA-6887-9483-C4F2-843ED3C3163D"/>
+<colUsage columnID="165C3371-A462-BCF8-1F0D-59231FB232A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8725B7F1-D3C8-3C22-3114-6F363994EA89" name="POZYCJA FAKTURY_TOWAR_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:03:13 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60704FC-C785-6620-5BBB-CCC628377E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C436753-1C2E-C1BE-CE39-6B5075DBA0E8" name="POZYCJA FAKTURY_FAKTURA_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:03:37 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="165C3371-A462-BCF8-1F0D-59231FB232A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

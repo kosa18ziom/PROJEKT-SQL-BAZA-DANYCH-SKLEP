@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="332CA95E-6E71-85F0-4D87-BF7BEFBC87DB" name="TOWAR">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:52:01 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TOWARU" id="6D1ED9E6-1F59-4D90-1A40-B3BFEF6DD2AF">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:52:23 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>SEQ_TOWAR</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENA" id="35ECD219-5858-BBDE-A211-6CD3D4694511">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:52:40 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="79EA656A-6885-59AD-A10B-6AB60DEBE496">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:52:52 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SKLEPU" id="8A5F6BF7-9217-CB3F-28C5-97BA546422AB">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:58:39 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81973FAF-A839-ADC6-BC46-64044E8A15D4" referredColumn="3A4D460B-3F2D-D825-39EB-D8E5E65135E1"/>
+</associations>
+</Column>
+<Column name="ID_KRAJU" id="23A6DFA8-4B13-B14E-8921-97D60F72C6DA">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:59:15 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D574AF97-1BDF-0B69-7A8C-3E927007E451" referredColumn="A402F49E-9BA0-BAAF-30A2-1C90DB1E3FA6"/>
+</associations>
+</Column>
+<Column name="ID_TYPU" id="6E0E00C3-1FB0-22D3-D462-B4BEDF04CBA4">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:02:38 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708E5672-D85D-DD14-C2AF-6BE59E1A2621" referredColumn="B41E41AC-F943-843B-B9A3-01E9EEAAD3C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F71B55BE-F745-6682-0A14-B4D9630ECD35" name="TOWAR_PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:52:23 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D1ED9E6-1F59-4D90-1A40-B3BFEF6DD2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F13128C0-C119-4D49-0595-3BF60B5275CB" name="TOWAR_SKLEP_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:58:39 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5F6BF7-9217-CB3F-28C5-97BA546422AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C8DB6B3-B7BA-E63B-5723-E1B92E709C91" name="TOWAR_KRAJ PRODUKCJI_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:59:15 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A6DFA8-4B13-B14E-8921-97D60F72C6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97F944A7-CF3A-6067-3C0C-B3E75ED7F6A0" name="TOWAR_Typ Towaru_FK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 23:02:38 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E0E00C3-1FB0-22D3-D462-B4BEDF04CBA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

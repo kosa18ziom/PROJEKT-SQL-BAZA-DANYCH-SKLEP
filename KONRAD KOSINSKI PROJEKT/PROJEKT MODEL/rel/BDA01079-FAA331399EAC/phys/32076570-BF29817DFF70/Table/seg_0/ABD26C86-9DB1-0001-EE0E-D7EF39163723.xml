@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRACOWNIK" directorySegmentName="seg_0" id="ABD26C86-9DB1-0001-EE0E-D7EF39163723">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SKLEPU" id="244F9507-486A-E95F-08E7-24ACE5E46191">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMIE" id="2DFC2557-556B-6F95-8995-FED1553D9AB6">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWISKO" id="57451DA1-92FF-245A-A992-D1D5A0FD881D">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULICA" id="73056EC0-E534-F269-20F6-1055D81C9AEA">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRACOWNIKA" id="73F62142-A7CD-E4EE-3547-E140AC149D9D">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<defaultValue>SEQ_PRACOWNIK</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MIEJSCOWOŚĆ" id="7575CDF2-A704-2834-2021-9CEA8B7968CC">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pracownik_SKLEP_FK" id="067A8907-1306-CCAF-F8AB-7EFEEEA1D42A">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pracownik_PK" id="A06CBE0E-80D5-C017-D1C4-49E76FD502D3">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 12:09:58 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

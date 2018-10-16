@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="450A795C-25F6-A76B-8494-717DC482697A" name="TYP_TOWARU">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:53:12 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TYPU" id="B41E41AC-F943-843B-B9A3-01E9EEAAD3C2">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:53:31 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA_TYPU" id="CAF56C83-3B76-8156-43CE-B1EB3129DABA">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:53:44 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BF2D76E-7A2C-E20F-14D9-872261808B8A" name="Typ Towaru_PK">
+<createdBy>Konrad</createdBy>
+<createdTime>2015-12-20 22:53:31 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B41E41AC-F943-843B-B9A3-01E9EEAAD3C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

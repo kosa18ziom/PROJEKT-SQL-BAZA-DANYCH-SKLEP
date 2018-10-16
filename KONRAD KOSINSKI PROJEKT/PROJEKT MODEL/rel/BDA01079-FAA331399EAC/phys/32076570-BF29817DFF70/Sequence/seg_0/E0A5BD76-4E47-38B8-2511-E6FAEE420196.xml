@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_TOWAR" directorySegmentName="seg_0" id="E0A5BD76-4E47-38B8-2511-E6FAEE420196">
+<createdBy>Konrad</createdBy>
+<createdTime>2016-01-06 13:16:40 UTC</createdTime>
+<ownerDesignName>PROJEKT MODEL</ownerDesignName>
+<incrementBy>1</incrementBy>
+<minValue>1</minValue>
+<startWith>1</startWith>
+</SequenceOraclev10g>
